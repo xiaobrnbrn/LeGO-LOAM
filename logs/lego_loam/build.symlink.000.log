@@ -1,7 +1,0 @@
-Symlinking /home/omnisky/aSLAMcodes/lego-loam-ws/devel/lib/lego_loam/transformFusion
-Symlinking /home/omnisky/aSLAMcodes/lego-loam-ws/devel/lib/lego_loam/mapOptmization
-Symlinking /home/omnisky/aSLAMcodes/lego-loam-ws/devel/lib/lego_loam/imageProjection
-Symlinking /home/omnisky/aSLAMcodes/lego-loam-ws/devel/lib/lego_loam/featureAssociation
-Symlinking /home/omnisky/aSLAMcodes/lego-loam-ws/devel/lib/pkgconfig/lego_loam.pc
-Symlinking /home/omnisky/aSLAMcodes/lego-loam-ws/devel/share/lego_loam/cmake/lego_loamConfig-version.cmake
-Symlinking /home/omnisky/aSLAMcodes/lego-loam-ws/devel/share/lego_loam/cmake/lego_loamConfig.cmake
