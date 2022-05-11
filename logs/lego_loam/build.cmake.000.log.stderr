@@ -1,0 +1,134 @@
+CMake Warning (dev) at CMakeLists.txt:53 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "cloud_msgs_gencpp" of target "featureAssociation"
+  does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:49 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "cloud_msgs_gencpp" of target "imageProjection" does
+  not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[33m[1mCMake Warning[0m at /home/omnisky/aSLAMcodes/lego-loam-ws/src/LeGO-LOAM/LeGO-LOAM/CMakeLists.txt:59 (add_executable):
+  Cannot generate a safe runtime search path for target transformFusion
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libboost_program_options.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_iostreams.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_serialization.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_filesystem.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_regex.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_system.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_thread.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_chrono.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_date_time.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_atomic.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/omnisky/aSLAMcodes/lego-loam-ws/src/LeGO-LOAM/LeGO-LOAM/CMakeLists.txt:52 (add_executable):
+  Cannot generate a safe runtime search path for target featureAssociation
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libboost_program_options.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_iostreams.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_serialization.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_filesystem.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_regex.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_system.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_thread.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_chrono.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_date_time.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_atomic.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/omnisky/aSLAMcodes/lego-loam-ws/src/LeGO-LOAM/LeGO-LOAM/CMakeLists.txt:56 (add_executable):
+  Cannot generate a safe runtime search path for target mapOptmization
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libboost_program_options.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_iostreams.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_serialization.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_filesystem.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_regex.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_system.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_thread.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_chrono.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_date_time.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_atomic.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/omnisky/aSLAMcodes/lego-loam-ws/src/LeGO-LOAM/LeGO-LOAM/CMakeLists.txt:48 (add_executable):
+  Cannot generate a safe runtime search path for target imageProjection
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libboost_program_options.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_iostreams.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_serialization.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_filesystem.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_regex.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_system.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_thread.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_chrono.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_date_time.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_atomic.so.1.65.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+
+  Some of these libraries may not be found correctly.
+
+
